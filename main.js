@@ -8,7 +8,8 @@ const fs = require("fs");
 // ============================================================
 
 function getShiftDuration(startTime, endTime) {
-
+ // splitting Duration deets
+ 
     let startParts = startTime.split(" ");
     let startTimeOnly = startParts[0];
     let startPeriod = startParts[1];
